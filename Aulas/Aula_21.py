@@ -1,0 +1,7 @@
+# Funções parte2
+
+# Interactive Help
+
+help(print)
+
+print(input.__doc__)

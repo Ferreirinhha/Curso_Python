@@ -1,9 +1,11 @@
 #Variaveis compostas
+#Listas 
 
 lista = list()
 pessoas = list()
 
-lista.append('Marcos')
+lista.extend([1, 2, 3]) # Adiciona um inteirável de uma vez na lista
+lista.append('Marcos') # Adiciona um único elemento na lista por vez
 lista.append(23)
 print('Fazendo copias.')
 print('')
