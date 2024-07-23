@@ -3,7 +3,7 @@ validação para aceitar apenas um valor numérico. """
 
 def leia_int(num: str):
     while True:
-        if num.isnumeric() == True:
+        if num.isnumeric():
             break
         else:
             num = input(str('\033[1;31mErro: Por favor digite um número: \033[m'))

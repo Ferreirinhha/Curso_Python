@@ -5,7 +5,7 @@ de cálculo do fatorial. """
 
 def fatorial(num: int, show=False):
     for i in range(num - 1, 0, -1):
-        if show == True:
+        if show:
             num *= i
             if i > 1:
                 print(f'{i} x', end=" ")
@@ -15,5 +15,5 @@ def fatorial(num: int, show=False):
             num *= i
     return num
 
-resultado = fatorial(10, show=False)
+resultado = fatorial(10, show=True)
 print(f'Resultado fatorial: {resultado}')

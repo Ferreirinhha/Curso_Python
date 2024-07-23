@@ -16,12 +16,9 @@ def notas(* notas, situacao=False):
     situação: Booleano  
     """
     dicionario = {'Maior nota': max(notas), 'Menor nota': min(notas)}
-    cont = 0
-    for i in notas:
-        cont += 1
-    dicionario['Total notas'] = cont
-    dicionario['Média turma'] = sum(notas) / cont
-    if situacao == True:
+    dicionario['Total notas'] = len(notas)
+    dicionario['Média turma'] = sum(notas) / len(notas)
+    if situacao:
         if dicionario['Média turma'] < 6:
             dicionario['Situação'] = 'Reprovado'
         else:
