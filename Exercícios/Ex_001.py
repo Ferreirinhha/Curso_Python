@@ -2,6 +2,6 @@
 
 print('Olá Mundo')
 
-mensagem = 'Olá Mundo'
+mensagem = 'Olá mundo'
 
 print(mensagem)
