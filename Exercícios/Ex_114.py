@@ -1,0 +1,1 @@
+# Crie um código em Pyhton que teste se o site Pudim está acessível pelo pc usado.
